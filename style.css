@@ -296,3 +296,208 @@
 .head{
     color: white;
 }
+
+@media screen and (max-width:415px){
+body{
+    padding: 0;
+    margin: 0;
+    }   
+    .head-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .nav img{
+        width: 120px;
+        padding: 20px;
+    }
+    .list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .team{
+        width: 290px;
+        margin-left: -70px;
+    }
+    .hero{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 400px;
+    }
+    .hero h1{
+        font-size: 30px;
+        width: 300px;
+        margin-left: -70px;
+
+    }
+    .hero p{
+        font-size: 16px;
+        width: 300px;
+        margin-left: -70px;
+    }
+    .hero input{
+        width: 250px;
+        margin-left: -70px;
+    }
+    img[src="./assets/email.png"]{
+        margin-left: -70px;
+    }
+    .hero button{
+        position: relative;
+        left: -0px;
+        top: 20px;
+    }    
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        width: 300px;
+    }
+    .info h1{
+        margin-left: -70px;
+        font-size: 30px;
+        width: 300px;
+        justify-content: center;
+        margin: auto;
+    }
+    .heads{
+        margin-left: -70px;
+        display: flex;
+        font-size: 14px;
+        gap: 2px;        
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+
+    }
+    .num{
+        margin-left: -70px;
+        display: flex;
+        font-size: 14px;    
+        gap: 40px;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+    }
+    img[src="./assets/pexels-fauxels-3184325.jpg"]{
+        width: 290px;
+        margin-left: -70px;
+    }
+    .pros{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+    }
+    .title{
+        margin-left: -70px;
+        font-size: 30px;
+        width: 300px;
+        justify-content: center;
+        margin: auto;
+    }
+    .right{
+        width: 290px;
+        margin-left: -30px;
+    }
+    .left, .right-p{
+        margin-left: -70px;
+        font-size: 30px;
+        width: 300px;
+        justify-content: center;
+        margin: auto;        
+    }
+    .pros p{
+        width: 300px;
+        margin: 30px;
+    }
+    .lt{
+        margin-left: 50px;
+   }
+   .left-img{
+        width: 290px;
+        margin-left: -70px;
+   }
+   .team-intro-head{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: auto;
+        height: 500px;
+    }
+   .team-intro-head h1{
+    font-size: 30px;
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+   }
+   .team-intro-head p{
+    position: relative;
+    top: -150px;
+    margin-left: -70px;
+    font-size: 20px;
+    width: 300px;
+    justify-content: center;
+    margin: auto;        
+   }
+
+   .team-intro-images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+   }
+   .names{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    float: left;
+    width: 300px;
+}
+   .job-desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    float: left;
+    width: 300px;
+}
+.sm{
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    left: 90px;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 50px;
+}
+}
+
